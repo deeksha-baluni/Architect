@@ -38,4 +38,21 @@ Hosted and deployed via **Netlify** with continuous deployment enabled.
 
 
 ## 📂 Project Structure
+architect-and-design-homes/
+│
+├── index.html # Main landing & home page
+│
+├── css/
+│ └── style.css # Main stylesheet
+│
+├── js/
+│ └── script.js # JavaScript for interactivity
+│
+├── img/ # Images, assets & project visuals
+│ ├── hero/
+│ ├── projects/
+│ ├── team/
+│ └── logos/
+│
+└── README.md
 
