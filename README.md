@@ -38,21 +38,22 @@ Hosted and deployed via **Netlify** with continuous deployment enabled.
 
 
 ## 📂 Project Structure
+```plaintext
 architect-and-design-homes/
 │
-├── index.html # Main landing & home page
+├── index.html              # Main landing page
 │
 ├── css/
-│ └── style.css # Main stylesheet
+│   └── style.css           # Core stylesheet
 │
 ├── js/
-│ └── script.js # JavaScript for interactivity
+│   └── script.js           # JavaScript functionality
 │
-├── img/ # Images, assets & project visuals
-│ ├── hero/
-│ ├── projects/
-│ ├── team/
-│ └── logos/
+├── img/                    # Images and assets
+│   ├── hero/
+│   ├── projects/
+│   ├── team/
+│   └── logos/
 │
 └── README.md
 
