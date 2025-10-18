@@ -1,0 +1,103 @@
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(15%);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes zoom {
+  0% {
+    tranform: scale(0);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+/* apply perspective on the parent container of the element */
+@keyframes moveText {
+  0% {
+    transform: translateY(40rem) rotateY(-60deg);
+  }
+
+  100% {
+    transform: translateY(0) rotateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes wrapperSlideRight {
+  0% {
+    transform: translateX(0);
+  }
+  70% {
+    transform: translateX(105%);
+  }
+  100% {
+    transform: translateX(95%);
+  }
+}
+
+@keyframes wrapperSlideLeft {
+  0% {
+    transform: translateX(100%);
+  }
+
+  70% {
+    transform: translateX(-5%);
+  }
+  100% {
+    transform: translateX(5%);
+  }
+}
+
+@keyframes formSlideLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transfor: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes formSlideRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transfor: translateX(0);
+    opacity: 1;
+  }
+}
+/* ***************************** */
+@keyframes circles {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

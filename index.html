@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Architect Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;500;600;700&family=Comic+Neue:wght@400;700&family=Prata&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="animation.css" />
+    <link rel="stylesheet" href="media-queries.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <div class="spinner-container">
+      <div class="circles">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="menu-icon">
+        <ion-icon class="svg svg--open" name="menu"></ion-icon>
+        <ion-icon class="svg svg--close" name="close-circle"></ion-icon>
+      </div>
+
+      <header class="header" id="home">
+        <div class="img-wrapper">
+          <img src="images/bg.jpg" alt="image of a house" />
+        </div>
+        <div class="banner">
+          <h1 class="heading">Architecture & Interior Design</h1>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
+            nobis?
+          </p>
+          <button class="btn">Discover Now</button>
+        </div>
+      </header>
+      <section class="sidebar">
+        <ul class="menu">
+          <li class="menu-item">
+            <a class="menu-link" data-content="Home" href="#home">Home</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link" data-content="About Us" href="#about-us"
+              >About Us</a
+            >
+          </li>
+          <li class="menu-item">
+            <a class="menu-link" data-content="Team" href="#team">Team</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link" data-content="Sign-up" href="#contact-us"
+              >Sign-up</a
+            >
+          </li>
+        </ul>
+        <ul class="social-media">
+          <a href="#" class="facebook"
+            ><ion-icon class="svg" name="logo-facebook"></ion-icon
+          ></a>
+          <a href="#" class="instagram"
+            ><ion-icon class="svg" name="logo-instagram"></ion-icon
+          ></a>
+          <a href="#" class="twitter"
+            ><ion-icon class="svg" name="logo-twitter"></ion-icon
+          ></a>
+        </ul>
+      </section>
+      <section class="about-us" id="about-us">
+        <div class="section-header">
+          <h1 class="section-heading">About Us</h1>
+          <div class="underline"></div>
+        </div>
+        <div class="services">
+          <div class="service">
+            <div class="service-header">
+              <ion-icon name="pencil" class="svg icon pen"></ion-icon>
+              <h3>Interior</h3>
+            </div>
+            <div>
+              <p class="service-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                illo error minus officiis facilis aperiam.
+              </p>
+            </div>
+          </div>
+          <div class="service">
+            <div class="service-header">
+              <ion-icon
+                class="svg icon paint-roller"
+                name="color-fill"
+              ></ion-icon>
+              <h3>Exterior</h3>
+            </div>
+            <div>
+              <p class="service-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                illo error minus officiis facilis aperiam.
+              </p>
+            </div>
+          </div>
+          <div class="service">
+            <div class="service-header">
+              <ion-icon class="svg icon pencil" name="color-palette"></ion-icon>
+              <h3>Design</h3>
+            </div>
+            <div>
+              <p class="service-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                illo error minus officiis facilis aperiam.
+              </p>
+            </div>
+          </div>
+          <div class="service">
+            <div class="service-header">
+              <ion-icon class="svg icon paint-brush" name="brush"></ion-icon>
+              <h3>Decoration</h3>
+            </div>
+            <div>
+              <p class="service-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                illo error minus officiis facilis aperiam.
+              </p>
+            </div>
+          </div>
+          <div class="service">
+            <div class="service-header">
+              <ion-icon class="svg icon bulb" name="bulb"></ion-icon>
+              <h3>Planning</h3>
+            </div>
+            <div>
+              <p class="service-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                illo error minus officiis facilis aperiam.
+              </p>
+            </div>
+          </div>
+          <div class="service">
+            <div class="service-header">
+              <ion-icon class="icon build svg" name="build"></ion-icon>
+              <h3>Execution</h3>
+            </div>
+            <div>
+              <p class="service-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                illo error minus officiis facilis aperiam.
+              </p>
+            </div>
+          </div>
+          <div class="about-us-img-wrapper">
+            <img src="images/house.png" />
+          </div>
+        </div>
+      </section>
+      <section class="team" id="team">
+        <div class="section-header">
+          <h1 class="section-heading">Our Team</h1>
+          <div class="underline"></div>
+        </div>
+        <div class="cards-wrapper">
+          <div class="card" data-tilt>
+            <div class="card-img-wrapper">
+              <img src="images/person-1.jpg" alt="CEO" />
+            </div>
+            <div class="card-info">
+              <h2>Ann brown</h2>
+              <h3>Designer</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit cia.
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+          <div class="card" data-tilt>
+            <div class="card-img-wrapper">
+              <img src="images/person-2.jpg" alt="MD" />
+            </div>
+            <div class="card-info">
+              <h2>Mary doe</h2>
+              <h3>Architect</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <button>Read More</button>
+            </div>
+          </div>
+          <div class="card" data-tilt>
+            <div class="card-img-wrapper">
+              <img src="images/person-3.jpg" alt="CFO" />
+            </div>
+            <div class="card-info">
+              <h2>John Smith</h2>
+              <h3>CEO</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <button>Read More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-us" id="contact-us">
+        <div class="section-header">
+          <h1 class="section-heading">Sign-Up</h1>
+          <div class="underline"></div>
+        </div>
+        <div class="base-form">
+          <div class="left-signup">
+            <h1>Don't have an account?</h1>
+            <p class="signup-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+            </p>
+            <p class="signup">Sign up</p>
+          </div>
+
+          <div class="right-login">
+            <h1>Have an account?</h1>
+            <p class="login-description signup-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, autem?
+            </p>
+            <p class="login signup">login</p>
+          </div>
+
+          <div class="floating-signup-wrapper">
+            <div class="floating-signup floats-fromLeft">
+              <h2 class="signup-heading">sign up</h2>
+
+              <forms class="form-signup">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Full Name"
+                  required
+                />
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Email"
+                  required
+                />
+                <input
+                  type="password"
+                  class="form-control"
+                  minlength="8"
+                  placeholder="Password"
+                  required
+                />
+                <input class="form-btn" type="submit" value="Sign up" />
+              </forms>
+            </div>
+
+            <div class="floating-login floats-fromRight">
+              <h2 class="signup-heading">login</h2>
+              <forms class="form-signup">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Full Name"
+                  required
+                />
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Email"
+                  required
+                />
+
+                <div class="btn-form">
+                  <input class="form-btn" type="submit" value="Log in" />
+                  <span class="forgot-password">Forgot password?</span>
+                </div>
+              </forms>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer">
+        <p>
+          Copyright &copy; <span id="year">2020</span>- All Rights Reserved
+          under Architecture&Design inc.
+        </p>
+        <ul class="social-media">
+          <a href="#" class="facebook"
+            ><ion-icon class="svg" name="logo-facebook"></ion-icon
+          ></a>
+          <a href="#" class="instagram"
+            ><ion-icon class="svg" name="logo-instagram"></ion-icon
+          ></a>
+          <a href="#" class="twitter"
+            ><ion-icon class="svg" name="logo-twitter"></ion-icon
+          ></a>
+        </ul>
+        <a class="uparrow" href="#">&uparrow;</a>
+      </section>
+    </div>
+
+    <script defer src="script.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="tilt.js"></script>
+  </body>
+</html>

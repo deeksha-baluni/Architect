@@ -1,0 +1,197 @@
+/* 1200px */
+@media (max-width: 75em) {
+  html {
+    font-size: 55%;
+  }
+  .cards-wrapper {
+    gap: 1.8rem;
+  }
+}
+
+/* 950px */
+@media (max-width: 60em) {
+  .about-us-img-wrapper img {
+    transform: translateY(8rem) translateX(2rem);
+  }
+  .cards-wrapper {
+    gap: 2.4rem;
+  }
+  .card {
+    height: 35rem;
+  }
+
+  .base-form {
+    width: 80%;
+  }
+  .btn-form {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn-form .forgot-password {
+    width: 100%;
+    justify-content: center;
+  }
+  .footer {
+    justify-content: space-around;
+  }
+}
+
+/* 750px */
+@media (max-width: 47em) {
+  html {
+    font-size: 50%;
+  }
+  .banner .heading {
+    width: 65%;
+  }
+  .services {
+    grid-row-gap: 5rem;
+  }
+  .service:nth-child(1) {
+    transform: translateX(0);
+  }
+  .service:nth-child(2) {
+    transform: translateX(0);
+  }
+  .service:nth-child(3) {
+    transform: translateX(0);
+  }
+  .about-us-img-wrapper img {
+    transform: translateY(9rem) translateX(2rem);
+  }
+  .card {
+    height: 33rem;
+  }
+
+  .base-form {
+    width: 90%;
+  }
+  .left-signup,
+  .right-login {
+    padding: 5.2rem;
+  }
+
+  .footer {
+    padding: 4.8rem 2.4rem;
+  }
+}
+
+/* 600px */
+@media (max-width: 38rem) {
+  html {
+    font-size: 45%;
+  }
+  .banner .heading {
+    width: 70%;
+  }
+
+  .about-us {
+    padding-bottom: 8rem;
+  }
+  .service:nth-child(1) {
+    grid-column: 2/8;
+  }
+  .service:nth-child(2) {
+    grid-column: 2/8;
+  }
+  .service:nth-child(3) {
+    grid-column: 2/8;
+  }
+  .service:nth-child(4) {
+    grid-column: 10/16;
+  }
+  .service:nth-child(5) {
+    grid-column: 10/16;
+  }
+  .service:nth-child(6) {
+    grid-column: 10/16;
+  }
+  .about-us-img-wrapper img {
+    display: none;
+  }
+  .services {
+    grid-row-gap: 6rem;
+  }
+
+  .team {
+    padding: 10rem 2rem;
+    padding-top: 0;
+  }
+  .card {
+    height: 30rem;
+  }
+  .card-info {
+    margin-left: 1.4rem;
+  }
+  .card-info h2 {
+    font-size: 2rem;
+  }
+  .card-info h3 {
+    font-size: 1.8rem;
+  }
+  .card-info p {
+    font-size: 1.6rem;
+  }
+  .base-form {
+    width: 95%;
+  }
+  .left-signup,
+  .right-login {
+    padding: 4.4rem;
+  }
+  .footer {
+    padding: 4.8rem 1.2rem;
+  }
+  .footer p {
+    width: 60%;
+  }
+  .social-media {
+    gap: 1.6rem;
+  }
+}
+
+/* 430px */
+@media (max-width: 27em) {
+  html {
+    font-size: 43%;
+  }
+  .banner .heading {
+    width: 75%;
+  }
+  .cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-info h2 {
+    font-size: 2.2rem;
+  }
+  .card-info h3 {
+    font-size: 2rem;
+  }
+  .card-info p {
+    font-size: 1.8rem;
+  }
+  .left-signup,
+  .right-login {
+    padding: 3.2rem;
+  }
+}
+
+/* 375px */
+@media (max-width: 24em) {
+  html {
+    font-size: 40%;
+  }
+  .banner .heading {
+    width: 100%;
+  }
+  .left-signup,
+  .right-login {
+    padding: 2.4rem;
+    gap: 2rem;
+    justify-content: space-evenly;
+  }
+}
